@@ -1,0 +1,10 @@
+{
+  "version" : "1.0",
+  "author" : "patman",
+  "tags" : "Character Improvements",
+  "description" : "if you have played on a character for over 21 days they will be known as boner guy.\n\nit just puts an image behind you that points at you + calls you boner guy\n\nif you have StarExtensions installed it will rename your character to boner guy too\n\n\n\nbongusjive\nhttps://discord.gg/GdsQSgV",
+  "name" : "pat_bonerguy",
+  "friendlyName" : "boner guy",
+  "steamContentId" : "2992238651",
+  "link" : "steam://url/CommunityFilePage/2992238651"
+}
