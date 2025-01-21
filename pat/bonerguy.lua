@@ -18,7 +18,9 @@ function bonerguy:update(dt)
 
   if player.playTime() > 1814400 then
     self.isBonerGuy = true
-    if player.setName then player.setName("boner guy") end
+    if starExtensions or root.assetJson("/player.config:genericScriptContexts").OpenStarbound then
+      player.setName("boner guy")
+    end
   end
 end
 
