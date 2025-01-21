@@ -1,10 +1,11 @@
 {
-  "version" : "1.0",
   "author" : "patman",
-  "tags" : "Character Improvements",
-  "description" : "if you have played on a character for over 21 days they will be known as boner guy.\n\nit just puts an image behind you that points at you + calls you boner guy\n\nif you have StarExtensions installed it will rename your character to boner guy too\n\n\n\nbongusjive\nhttps://discord.gg/GdsQSgV",
-  "name" : "pat_bonerguy",
+  "description" : "if you play on a character for over 21 days they will become known as a boner guy",
   "friendlyName" : "boner guy",
+  "link" : "steam://url/CommunityFilePage/2992238651",
+  "name" : "pat_bonerguy",
   "steamContentId" : "2992238651",
-  "link" : "steam://url/CommunityFilePage/2992238651"
+  "steamDescription" : "if you play on a character for over 21 days they will become known as a boner guy\n\nit just puts an image behind you that points at you + calls you boner guy\n\nif you have StarExtensions or OpenStarbound it will rename your character to boner guy too\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar\n[img]https://i.imgur.com/xVfcRRH.gif[/img]https://ko-fi.com/patmanf\n[img]https://i.imgur.com/jJAj6jF.gif[/img]https://github.com/bongus-jive/boner-guy\n",
+  "tags" : "Character Improvements",
+  "version" : "1.0.1"
 }
