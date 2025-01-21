@@ -1,1 +1,3 @@
-[{"op": "add", "path": "/deploymentConfig/scripts/-", "value": "/pat/bonerguy.lua"}]
+[
+  { "op": "add", "path": "/deploymentConfig/scripts/-", "value": "/pat/bonerguy.lua" }
+]
