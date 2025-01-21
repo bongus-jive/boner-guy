@@ -1,18 +1,29 @@
-local bonerguy, bonercheck = false, 0
+local bonerguy = {
+  isBonerGuy = false,
+  checkTicks = 0,
+  drawable = {image = "/pat/bonerguy.png", position = {0, 6.5}, fullbright = true, centered = true, scale = 0.5}
+}
+pat_bonerguy = bonerguy
 
-local u = update
-function update(...) u(...)
-  if bonerguy then
-    localAnimator.addDrawable({image = "/pat/bonerguy.png", position = {0, 6.5}, fullbright = true, centered = true, scale = 0.5}, "player-100")
-  else
-    if bonercheck == 0 then
-      bonercheck = 100
-      if player.playTime() > 1814400 then
-        bonerguy = true
-        if starExtensions then player.setName("boner guy") end
-      end
-    else
-      bonercheck = bonercheck - 1
-    end
+function bonerguy:update(dt)
+  if self.isBonerGuy then
+    return localAnimator.addDrawable(self.drawable, "player-100")
   end
+
+  if self.checkTicks > 0 then
+    self.checkTicks = self.checkTicks - 1
+    return
+  end
+  self.checkTicks = 100
+
+  if player.playTime() > 1814400 then
+    self.isBonerGuy = true
+    if player.setName then player.setName("boner guy") end
+  end
+end
+
+local _update = update
+function update(dt)
+  _update(dt)
+  bonerguy:update(dt)
 end
